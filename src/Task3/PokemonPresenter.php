@@ -18,7 +18,11 @@ class PokemonPresenter
      */
     public function present(): string
     {
-        //TODO: implement
-        return '';
+        return
+            '<ul>' .
+            array_reduce($this->pokemons, function ($html, $pokemon) {
+                return $html . "<li><img src=\"{$pokemon->imageUrl()}\"></li>";
+            }) .
+            '</ul>';
     }
 }
