@@ -46,7 +46,7 @@ composer install
 
 ```
 <Pokemon>: <Battlecry>. Например,
-Pickachu: Pika-Pika!
+Pikachu: Pika-Pika!
 ```
 
 Так же вам необходимо реализовать следующих покемонов по описанию интерфейса `Pokemon`.

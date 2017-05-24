@@ -2,11 +2,11 @@
 
 namespace BinaryStudioAcademy\Task1;
 
-class Pickachu extends AbstractPokemon
+class Pikachu extends AbstractPokemon
 {
     public function getName(): string
     {
-        return 'Pickachu';
+        return 'Pikachu';
     }
 
     public function battleCry(): string

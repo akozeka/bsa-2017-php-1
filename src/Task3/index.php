@@ -3,13 +3,13 @@
 require __DIR__ . '/../../vendor/autoload.php';
 
 use BinaryStudioAcademy\Task1\Bulbasaur;
-use BinaryStudioAcademy\Task1\Pickachu;
+use BinaryStudioAcademy\Task1\Pikachu;
 use BinaryStudioAcademy\Task1\Psyduck;
 use BinaryStudioAcademy\Task1\Slowpoke;
 use BinaryStudioAcademy\Task3\PokemonPresenter;
 
 // Good idea is to put your pokemons you implemented before here:
-$pokemons = [new Pickachu(), new Bulbasaur(), new Psyduck(), new Slowpoke()];
+$pokemons = [new Pikachu(), new Bulbasaur(), new Psyduck(), new Slowpoke()];
 
 ?>
 <!doctype html>

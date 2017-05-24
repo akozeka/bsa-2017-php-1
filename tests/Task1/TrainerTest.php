@@ -2,7 +2,7 @@
 
 namespace BinaryStudioAcademyTests\Task1;
 
-use BinaryStudioAcademy\Task1\Pickachu;
+use BinaryStudioAcademy\Task1\Pikachu;
 use BinaryStudioAcademy\Task1\Bulbasaur;
 use BinaryStudioAcademy\Task1\Slowpoke;
 use BinaryStudioAcademy\Task1\Psyduck;
@@ -24,9 +24,9 @@ class TrainerTest extends TestCase
         $this->trainer = new PokemonTrainer();
     }
 
-    public function test_can_create_pickachu()
+    public function test_can_create_pikachu()
     {
-        $this->assertInstanceOf(Pickachu::class, new Pickachu);
+        $this->assertInstanceOf(Pikachu::class, new Pikachu);
     }
 
     public function test_can_create_bulbasaur()
@@ -58,7 +58,7 @@ class TrainerTest extends TestCase
     public function pokemonDataProvider()
     {
         return [
-            [new Pickachu, 'Pickachu: Pika-Pika!'],
+            [new Pikachu, 'Pikachu: Pika-Pika!'],
             [new Bulbasaur, 'Bulbasaur: Bool bool!'],
             [new Slowpoke, 'Slowpoke: So slow!'],
             [new Psyduck, 'Psyduck: PSY!PSY!PSY!']
